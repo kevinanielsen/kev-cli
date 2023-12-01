@@ -1,5 +1,11 @@
 # @kevinanielsen/kev-cli
 
+## 1.1.0
+
+### Minor Changes
+
+- [`1908ed5`](https://github.com/kevinanielsen/kev-cli/commit/1908ed5040afb1aed3c1f844463c923270663142) Thanks [@kevinanielsen](https://github.com/kevinanielsen)! - Add option for next project initialization
+
 ## 1.0.1
 
 ### Patch Changes
