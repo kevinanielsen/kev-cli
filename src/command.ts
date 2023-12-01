@@ -10,7 +10,7 @@ program.name("kev");
 program
   .command("init")
   .description(
-    "Initializes a new project. \nIf no options are provided, a blank node project will be created."
+    "Initializes a new project. \nIf no options are provided, a blank node project will be created.",
   )
   .argument("<project-name>")
   .option("-v, --vite", "use vite as the base", false)

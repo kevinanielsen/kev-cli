@@ -11,11 +11,11 @@ const nodeInit = (name: string, git: boolean) => {
   });
   fs.writeFileSync(
     `./${name}/package.json`,
-    JSON.stringify(generatePackageJson(name), null, 2)
+    JSON.stringify(generatePackageJson(name), null, 2),
   );
   fs.writeFileSync(
     `./${name}/tsconfig.json`,
-    JSON.stringify(nodeBase, null, 2)
+    JSON.stringify(nodeBase, null, 2),
   );
   fs.mkdirSync(`./${name}/src`);
   fs.mkdirSync(`./${name}/test`);
@@ -30,7 +30,7 @@ const nodeInit = (name: string, git: boolean) => {
     gitInit(name);
   }
   console.log(
-    "----------------------------------------------------------------"
+    "----------------------------------------------------------------",
   );
   console.log(`To continue developing, run \n   cd ${name} \n   pnpm dev \n`);
 };

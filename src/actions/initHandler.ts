@@ -4,7 +4,7 @@ import viteInit from "./optionHandlers/viteInit";
 
 export function initHandler(
   name: string,
-  options: { vite: boolean; git: boolean }
+  options: { vite: boolean; git: boolean },
 ) {
   if (options.vite) {
     viteInit(name, options.git);

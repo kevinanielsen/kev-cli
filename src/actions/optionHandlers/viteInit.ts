@@ -23,7 +23,7 @@ const viteInit = (name: string, git: boolean) => {
       } &> /dev/null`,
         {
           stdio: "inherit",
-        }
+        },
       );
 
       console.log("Vite Project Created");
@@ -33,10 +33,10 @@ const viteInit = (name: string, git: boolean) => {
       }
 
       console.log(
-        "----------------------------------------------------------------"
+        "----------------------------------------------------------------",
       );
       console.log(
-        `To continue developing, run \n   cd ${name} \n   pnpm dev \n`
+        `To continue developing, run \n   cd ${name} \n   pnpm dev \n`,
       );
     }
   });

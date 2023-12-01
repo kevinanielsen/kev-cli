@@ -8,7 +8,11 @@
   "main": "./dist/bin.js",
   "scripts": {
     "dev": "tsc -w",
-    "link-cli": "pnpm --global unlink @kevinanielsen/kev-cli & pnpm --global link @kevinanielsen/kev-cli"
+    "build": "tsc",
+    "format": "prettier --write .",
+    "link-cli": "pnpm --global unlink @kevinanielsen/kev-cli & pnpm --global link @kevinanielsen/kev-cli",
+    "prerelease": "pnpm format && pnpm build",
+    "release": "changeset publish"
   },
   "keywords": [
     "cli",

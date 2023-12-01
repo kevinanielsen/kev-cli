@@ -9,7 +9,7 @@ const gitInit = (name: string, vite?: boolean) => {
       git branch -m main
       git add .
       git commit -m "Initial commit"
-    } &> /dev/null`
+    } &> /dev/null`,
   );
   if (!vite) {
     fs.writeFileSync(`./${name}/.gitignore`, "node_modules\n");
