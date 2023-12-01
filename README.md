@@ -12,5 +12,5 @@ npm install -g @kevinanielsen/kev-cli
 kev init <project_name> [-options]
 ```
 ### Options
--v (Vite/React project)
+-v (Vite/React project) </br>
 -g (Initialize Git Repo)
