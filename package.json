@@ -1,6 +1,5 @@
 {
   "name": "@kevinanielsen/kev-cli",
-  "private": "false",
   "bin": {
     "kev": "dist/bin.js"
   },
