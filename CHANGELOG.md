@@ -1,5 +1,11 @@
 # @kevinanielsen/kev-cli
 
+## 1.0.1
+
+### Patch Changes
+
+- [`28fb5c6`](https://github.com/kevinanielsen/kev-cli/commit/28fb5c66a9a7c8acbd2991d78aaa0ba61806f70e) Thanks [@kevinanielsen](https://github.com/kevinanielsen)! - Update changesets config
+
 ## 1.0.0
 
 ### Major Changes

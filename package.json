@@ -3,7 +3,7 @@
   "bin": {
     "kev": "dist/bin.js"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Kevinanielsen's Personal CLI",
   "main": "./dist/bin.js",
   "scripts": {
